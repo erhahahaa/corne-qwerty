@@ -12,8 +12,7 @@
 #include <dt-bindings/led/led.h> 
 
 &led_strip { 
-  chain-length = <27>;
-  // 21 backlight + 6 glowlight
+  chain-length = <27>; 
 };
  
 &pinctrl {
@@ -55,13 +54,7 @@
                           LED_COLOR_ID_BLUE>;
   };
 };
-
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
-}; 
-
+ 
 #define BASE 0
 #define LOWER 1
 #define RAISE 2
@@ -73,6 +66,10 @@
 &sk { quick-release; };
 
 / {
+    chosen {
+        zmk,underglow = &led_strip;
+        zmk,backlight = &backlight;
+    };
     behaviors {
         td_caps: td_caps {
             compatible = "zmk,behavior-tap-dance";
