@@ -61,6 +61,15 @@
         zmk,underglow = &led_strip;
     };
 };
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
 
 #define BASE 0
 #define LOWER 1
