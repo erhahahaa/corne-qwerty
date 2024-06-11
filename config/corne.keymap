@@ -12,7 +12,7 @@
 #include <dt-bindings/led/led.h> 
 
 &led_strip { 
-  chain-length = <27>; 
+  chain-length = <21>; 
 };
 
 #define BASE 0
@@ -26,9 +26,6 @@
 &sk { quick-release; };
 
 / {
-    chosen {
-        zmk,underglow = &led_strip; 
-    };
     behaviors {
         td_caps: td_caps {
             compatible = "zmk,behavior-tap-dance";
