@@ -110,8 +110,8 @@ layers:
   - PREV
   - PP
   - NEXT
-  - RGB ON
-  - RGB EFF
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
   - EP ON
@@ -122,8 +122,8 @@ layers:
   - MUTE
   - VOL DN
   - VOL UP
-  - RGB OFF
-  - RGB TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ESC
   - LGUI
   - {type: held}
