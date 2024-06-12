@@ -12,7 +12,7 @@
 #include <dt-bindings/led/led.h> 
 
 &led_strip { 
-  chain-length = <26>; 
+  chain-length = <27>; 
 };
 
 #define BASE 0
