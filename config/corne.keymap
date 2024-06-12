@@ -25,10 +25,7 @@
 
 &sk { quick-release; };
 
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
-    };
+/ { 
     behaviors {
         td_caps: td_caps {
             compatible = "zmk,behavior-tap-dance";
