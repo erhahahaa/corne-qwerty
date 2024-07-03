@@ -13,9 +13,12 @@
 #define RAISE 2
 #define MEDIA 3
 
+&led_strip {
+    chain-length = <27>;
+};
+
 // This is ok if only a single sticky key is used.
 // Create new behavior if multiple &sk is used.
-
 &sk { quick-release; };
 
 / {
