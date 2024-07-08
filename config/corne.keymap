@@ -65,7 +65,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7     &kp N8    &kp N9     &kp N0    &kp BSPC
+&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5       &kp N6    &kp N7     &kp N8    &kp N9     &kp N0    &kp DELETE
 &td_caps   &kp F1  &kp F2  &kp F3    &kp F4  &kp F5       &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT  &kp HOME  &kp PAGE_UP
 &kp LCTRL  &kp F6  &kp F7  &kp F8    &kp F9  &mo 4        &trans    &kp F10    &kp F11   &kp F12    &kp END   &kp PAGE_DOWN
                            &kp LGUI  &trans  &kp SPACE    &kp RET   &mo MEDIA  &kp RALT
@@ -111,7 +111,7 @@
             bindings = <
 &trans  &trans          &trans           &trans           &trans           &trans    &trans                          &trans           &trans           &trans           &trans           &trans
 &trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans    &rgb_ug RGB_SAI                 &rgb_ug RGB_SAD  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR
-&trans  &trans          &trans           &trans           &trans           &trans    &rgb_ug RGB_COLOR_HSB(62,0,98)  &trans           &trans           &trans           &trans           &trans
+&trans  &trans          &trans           &trans           &trans           &trans    &rgb_ug RGB_COLOR_HSB(62,0,98)  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans           &trans           &trans
                                          &trans           &trans           &trans    &trans                          &trans           &trans
             >;
         };
