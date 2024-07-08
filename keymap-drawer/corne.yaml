@@ -32,7 +32,7 @@ layers:
   - F7
   - F8
   - F9
-  - {t: ▽, type: trans}
+  - rgb
   - {t: ▽, type: trans}
   - F10
   - F11
@@ -75,7 +75,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - rgb
   - _
   - +
   - '{'
@@ -131,3 +131,46 @@ layers:
   - RET
   - {type: held}
   - RALT
+  rgb:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RGB ON
+  - RGB OFF
+  - RGB HUI
+  - RGB HUD
+  - {t: ▽, type: trans}
+  - RGB SAI
+  - RGB SAD
+  - RGB BRI
+  - RGB BRD
+  - RGB EFF
+  - RGB EFR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - RGB COLOR HSB(62098)
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
