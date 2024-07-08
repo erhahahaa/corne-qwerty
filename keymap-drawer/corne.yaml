@@ -14,7 +14,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
+  - DELETE
   - '&td_caps'
   - F1
   - F2
@@ -163,8 +163,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - RGB COLOR HSB(62098)
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB SPI
+  - RGB SPD
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
